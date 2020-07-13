@@ -1,0 +1,411 @@
+body{
+    font-family: arial;
+}
+
+a{
+    text-decoration: none;
+}
+.nav-class{
+   border-top: 1px solid #dfdfde;
+    border-bottom: 1px solid #dfdfde;
+    width: 100%;
+    display: table;
+    margin: auto;
+    font-size: 12px;
+}
+.nav-order{
+    border-right:1px solid #dfdfde;
+    width: 69.2%;
+    float: left;
+    padding-left: 3%;
+    display: table;
+    /*border: 1px solid #dfdfde;*/
+    height: 50px;
+    
+    
+}
+.nav-order a{
+    padding-left: 3%;
+    color:grey;
+    vertical-align: middle;
+    
+}
+.input-container{
+    width: 23%;
+    
+    color: grey;
+    /*border: 1px solid #dfdfde;*/
+    padding: 0  2% 0 1%;
+    display: inline-block;
+    height: 50px;
+}
+.input-container a{
+    color: #3078CD;
+    padding-left: 6px;
+    float: right;
+    display: inline-block;
+    margin: 17px 0;
+}
+.input-field{
+    border: none;
+    display: inline-block;
+    height: 40px;
+    margin: 4px 0;
+}
+
+
+.logo-class img{
+   width: 12% ;
+ 
+}
+.logo-class {
+   width: 100% ;
+  text-align: center;
+}
+.logo-class p {
+    width: 60%;
+    padding: 0 px;  margin:10px auto;
+    font-size: 350%;
+    font-family: arial ;
+    font-weight:900  ;
+}
+.corona-infor{
+    
+    background-color: #385075;
+    color: white;
+    text-align: center;
+    height: 10px;
+    border-radius: 3px;
+    width: 90%;
+    margin: 25px auto 80px ;
+    
+    font-size: 14px;
+    display: table;
+}
+.logo-class p:nth-child(3) {
+    font-size: 24px;
+    font-weight:400; 
+}
+.alter{
+    display: flex;
+    
+    margin-top: 100px;
+}
+.alter-1 , .alter-2 ,.alter-3{
+    padding: 0 40px;
+    width: 30%;
+    display: block;
+    
+}
+.alter-1 button{
+    background-color: #0F6FFF;
+   
+    
+}
+.alter-2 button{
+    background-color: #4139A7;
+  
+    
+}
+.alter-3 button{
+    background-color: #CC4D29;
+   
+    
+}
+.alter-3 button:hover {
+    background-color: #A33300;
+}
+.alter-2 button:hover {
+    background-color: #332f6b;
+}
+.alter-1 button:hover {
+    background-color: #1157c1;
+}
+.alter button{
+    cursor: pointer;
+     padding: 17px 30px;
+    border-radius: 10px;
+    color: white;
+    font-size: 18px;
+   
+}
+
+.alter img {
+    width: 55px;
+    float: right;
+}
+.Grow-career img{
+   width: 535px; 
+    float: right;
+    padding-left: 30px;
+}
+.Grow-career {
+ margin:100px 60px;
+    display: inline-block;
+}
+.Grow-career h1{
+ font-size: 58px;
+font-weight: 900 ;
+margin: -10px;
+}
+.Grow-career p{
+ font-size: 26px;
+ font-weight: normal;;   
+}
+.Grow-1{
+    width: 45%;
+   margin-right: 30px;
+}
+.Grow-1 p{
+     
+    font-size: 16px;
+}
+.Grow-2{
+    width: 45%;
+    
+}
+.Grow-2 p{
+    
+    font-size: 16px;
+   
+}
+.b-l{
+    display: inline-block;
+    margin-top: 30px;
+}
+.Grow-career button{
+     cursor: pointer;
+     padding: 17px 30px;
+    border-radius: 10px;
+    color: white;
+    font-size: 18px;
+    background-color: #0F6FFF;
+    margin-right: 20px;
+}
+.list{
+    display: flex;
+}
+.list h4{
+    font-weight: 800;
+}
+.b-l a{
+    color: #0F6FFF;
+    
+}
+.b-l a:hover{
+    text-decoration: underline ;
+    
+}
+.logos{
+    display: flex;
+    width: 90%;
+    margin:0 auto; 
+}
+.logos2{
+ display: flex;
+  align-items: center;
+  justify-content: center;
+
+  
+}
+.logos2 p{
+    margin: 0; 
+} 
+.card2{
+   border-radius: 5px;
+    border:1px solid black;
+    width: 26%;
+  
+    padding: 20px;
+    height: 40px;
+   margin: 20px 10px 30px;
+   
+}
+.card2 img{
+    float: left;
+    width: 47px;
+    display: flex;
+    padding-right: 15px;
+}
+.logos-card{
+    border-radius: 5px;
+    border:1px solid black;
+    width: 28%;
+    margin-left:   20px;
+    padding: 20px;
+    height: 40px;
+}
+.logos-card img{
+    float: left;
+    width: 47px;
+    display: flex;
+    padding-right: 15px;
+}
+.logos p{
+    margin: 0;
+}
+.sec4 h2{
+    font-size: 27px;
+    text-align: center;
+    padding-bottom: 20px;
+}
+.nameAndLas{
+ 
+    background-color: aqua;
+}
+.FindJob{
+    
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+
+}
+@media (min-width: 1100px) and (max-width: 1300px) {
+    .logo-class p {font-size: 300%;}
+    .logo-class img{ width: 15% ;}
+    .logo-class p:nth-child(3) {
+    font-size: 22px;
+    font-weight:300; }
+    .sec2 button{font-size: 15px;}
+    .alter p{font-size: 0.9em;}
+    .alter img {width: 40px;}
+    .alter h3{font-size: 1.2em;}
+    .Grow-career img{ width: 390px;padding-left: 20px; }
+    .Grow-career p{font-size: 23px;}
+    .Grow-career h1{font-size: 46px;}
+    .Grow-1 p{font-size: 14px;}
+    .Grow-2 p{font-size: 14px;}
+    .Grow-1 h4{font-size: 14px;}
+    .Grow-2 h4{font-size: 14px;}
+    .Grow-career button{font-size: 14px;}
+    .alter-1 , .alter-2 ,.alter-3{
+    padding: 0 30px;}
+    .sec4 h2{font-size: 22px;}
+    .logos2 p{font-size: 0.85em;}
+    .logos-card p{font-size: 0.85em;}
+    .corona-infor{font-size: 14px;margin-bottom: 60px;}
+    .Grow-career {
+        margin:80px 40px;}
+    .alter{ margin-top: 80px;}
+   /* body{background-color: yellow;}*/
+    
+}
+@media (min-width: 900px) and (max-width: 1100px) {
+    .logo-class p { font-size: 250%;} 
+    .logo-class p:nth-child(3) {
+    font-size: 18px;
+    font-weight:300; }
+    .logo-class img{ width: 15% ;}
+    .sec2 button{font-size: 11px;}
+    .alter p{font-size: 0.8em;}
+    .alter img {width: 35px;}
+    .alter h3{font-size: 1em;}
+    .Grow-career img{ width: 300px; padding-left: 16px;}
+    .Grow-career p{font-size: 20px;}
+    .Grow-career h1{font-size: 36px;}
+    .Grow-1 p{font-size: 12px;}
+    .Grow-2 p{font-size: 12px;}
+    .Grow-1 h4{font-size: 12px;}
+    .Grow-2 h4{font-size: 12px;}
+    .Grow-career button{font-size: 12px;}
+    .alter-1 , .alter-2 ,.alter-3{
+    padding: 0 20px;}
+    .sec4 h2{font-size: 18px;}
+    .logos2 p{font-size: 0.7em;}
+    .card2 {padding: 13px;}
+    .logos-card p{font-size: 0.7em;}
+    .logos-card {padding: 13px;}
+    .logos2 img{width:  40px;}
+    .logos-card img{width:  49px;}
+    .corona-infor{font-size: 12px;margin-bottom: 50px;}
+    .Grow-career {
+        margin:60px 30px;}
+    .alter{ margin-top: 60px;}
+    .input-field{width: 58%;}
+    /*body{background-color: green;}*/
+          
+}
+@media (min-width: 700px) and (max-width: 900px) {
+    .logo-class p { font-size: 150%;}  
+    .logo-class p:nth-child(3) {
+    font-size: 16px;
+    font-weight:300; }
+    .logo-class img{ width: 17% ;}
+    .sec2 button{font-size: 9px;}
+    .alter p{font-size: 0.7em;}
+    .alter img {width: 30px;}
+    .alter h3{font-size: 0.8em;}
+     .Grow-career img{ width: 220px;padding-left: 10px; }
+    .Grow-career p{font-size: 16px;}
+    .Grow-career h1{font-size: 30px;}
+    .Grow-1 p{font-size: 10px;}
+    .Grow-2 p{font-size: 10px;}
+    .Grow-1 h4{font-size: 10px;}
+    .Grow-2 h4{font-size: 10px;}
+    .Grow-career button{font-size: 10px;}
+    
+    .alter-1 , .alter-2 ,.alter-3{
+    padding: 0 10px;
+        width: 90%;}
+    .sec4 h2{font-size: 16px;}
+    .logos2 p{font-size: 0.6em;}
+    .logos-card p{font-size: 0.6em;}
+    .logos-card img{width:  37px;}
+    .logos2 img{width:  37px;}
+    .logos-card {padding: 10px;}
+    .card2 {padding: 10px;}
+    .corona-infor{font-size: 10px;margin-bottom: 40px;}
+    .Grow-career {
+        margin:50px 25px;}
+    .alter{ margin-top: 40px;}
+    .nav-order{height: 30px;}
+    .input-container{height: 30px;}
+    .input-container a{margin-top: 13px;}
+    .input-field{width: 46%;height: 30px;}
+    /* body{background-color: red;}*/
+}
+@media (min-width: 500px) and (max-width: 700px) {
+    .logo-class p { font-size: 150%;}  
+    .logo-class p:nth-child(3) {
+    font-size: 16px;
+    font-weight:300; }
+    .logo-class img{ width: 17% ;}
+    .sec2 button{font-size: 8px;}
+    .alter p{font-size: 0.7em;}
+    .alter img {width: 30px;}
+    .alter h3{font-size: 0.8em;}
+     .Grow-career img{ width: 200px;padding-left: 10px; }
+    .Grow-career p{font-size: 11px;}
+    .Grow-career h1{font-size: 20px;}
+    .Grow-1 p{font-size: 8px;}
+    .Grow-2 p{font-size: 8px;}
+    .Grow-1 h4{font-size: 8px;}
+    .Grow-2 h4{font-size: 8px;}
+    .Grow-career button{font-size: 8px;}
+    .alter{display: block;margin-left: 20px;}
+    .alter-1 , .alter-2 ,.alter-3{
+    padding: 0 10px;
+        width: 90%;text-align: center;}
+    .sec4 h2{font-size: 14px;}
+    .logos2 p{font-size: 0.6em;}
+    .logos-card p{font-size: 0.6em;}
+    .logos-card img{width:  37px;}
+    .logos2 img{width:  37px;}
+    .logos-card {padding: 10px;}
+    .card2 {padding: 10px;}
+    .corona-infor{font-size: 8px;margin-bottom: 30px;}
+    .Grow-career {
+        margin:30px 20px;}
+    .alter{ margin-top: 30px;}
+    .logos{display:block; }
+    .logos-card{width: 90%;font-size: 1.3em;margin-bottom: 10px;}
+    .card2{width: 82.5%;font-size: 1.3em;margin:10px auto;float:l }
+    .logos2{display:block;padding-left: 8px;}
+    .nav-order{height: 25px;padding: 0;}
+    .input-container{height: 25px;width: 27%}
+    .input-field{width: 32%;height: 25px;font-size: 9px;}
+    .nav-order a{font-size: 10px;}
+    .input-container a{margin-top: 12px;}
+    /* body{background-color: blueviolet;}*/
+}
